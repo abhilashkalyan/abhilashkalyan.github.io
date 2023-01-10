@@ -1,0 +1,28 @@
+title: Ostrichization
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""      
+      type: "posts"
+    values:
+      author: ""
+      image: ""
+  - scope:
+      path: ""      
+      type: "pages"
+    values:
+      author: ""
+      image: ""
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+remote_theme: zivong/ockham
+
+paginate: 10
